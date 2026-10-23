@@ -1,0 +1,14 @@
+interface:
+  display_name: HEA 논문 검색
+  short_description: Science·Nature 계열 HEA 논문을 검색하고 세 키워드별로 분류
+  default_prompt: $search-hea-literature를 사용해서 2018년 이후 Science·Nature 계열의 HEA 논문을
+    chemical order, catalyst, synthetic method별로 찾아 정리해줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
